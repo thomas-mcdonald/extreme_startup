@@ -6,26 +6,7 @@ NB don't show the players the code for this project until after the workshop as 
 
 Getting started
 ---------------
-* Install Ruby 1.9.3 and rubygems
-* (For Windows)
-  * Install [Ruby DevKit](http://rubyinstaller.org/downloads/)
-  * Extract to (e.g.) c:\devkit
-  * cd c:\devkit
-  * ruby dk.rb init
-  * Edit the file config.yml (Add the locations where ruby is installed e.g. c:\Ruby193)
-  * ruby dk.rb install
-* (For Ubuntu 12.04 onwards)   
-  * Remove existing installation of Ruby and ruby related packages (do not use sudo or Ubuntu Software centre or any other Ubuntu package manager to install Ruby or any of its components)
-  * Remove rvm and related package from Ubuntu
-  * Install RVM using the instructions on https://rvm.io/
-  * In case RVM is broken it can be fixed by going to http://stackoverflow.com/questions/9056008/installed-ruby-1-9-3-with-rvm-but-command-line-doesnt-show-ruby-v/9056395#9056395 
-  * Install Ruby and Rubygems using RVM only (for Rubygems use: 'rvm rubygems current' or 'rvm rubygems latest')
-  * See [Installing Nokogiri](http://nokogiri.org/tutorials/installing_nokogiri.html) for installing requirement
-    * sudo apt-get install libxslt-dev libxml2-dev
-* (For Mac (Xcode 5.1 onwards))
-  * In the install instructions below you may need to supply an additional argument to ensure that Xcode does not treat an incorrect command line argument as a fatal error when installing Nokogiri.
-  * The argument is: `ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future` and can be prepended to the install commands.
-  * Read more here: https://developer.apple.com/library/ios/releasenotes/DeveloperTools/RN-Xcode/Introduction/Introduction.html
+* Install Ruby 2.3.3. Instructions can be found on the ruby-lang [website](https://www.ruby-lang.org/en/documentation/installation/).
 
 * Install dependencies:
 
@@ -87,5 +68,5 @@ People Who've Run Extreme Startup Sessions
 * http://www.nilswloka.com/2011/08/17/code-dojo-extreme.html
 * http://blog.xebia.fr/2012/07/19/extreme-startup-chez-xebia/
 * https://blog.codecentric.de/en/2015/06/extreme-startup-at-codecentric/
-  
+
 If you run this workshop, please write it up on the internet and send us a link to add to this list.
